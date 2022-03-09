@@ -5,9 +5,9 @@ cd Game/base.io_Data/
 unzip sharedassets0.assets.zip 
 unzip sharedassets1.assets.zip 
 cd ../../Database/
-start "BaseIODatabase.exe"
+cmd start "BaseIODatabase.exe"
 cd ../Server/
-start "Survio Server.exe"
+cmd start "Survio Server.exe"
 cd ../Game/
-start "base.io.exe"
+cmd start "base.io.exe"
 cd ../
